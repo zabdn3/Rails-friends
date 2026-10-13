@@ -19,10 +19,10 @@
             <%= render friend %>
             <td>
               <%= button_to "Delete",
-              @friend,
+              friend,
               method: :delete,
               data: {
-                confirm: "are you sure?",
+                turbo_confirm: "are you sure?",
               },
               class: "btn btn-outline-danger btn-sm " %>
             </td>
