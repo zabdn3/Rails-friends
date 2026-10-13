@@ -18,7 +18,7 @@
           <tr id="<%= dom_id friend %>">
             <%= render friend %>
             <td>
-              <%= link_to "Delete",
+              <%= button_to "Delete",
               @friend,
               method: :delete,
               data: {
